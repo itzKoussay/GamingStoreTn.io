@@ -13,6 +13,9 @@
     box-shadow: 0 4px  8px black;
     z-index: 1;
 }
+li{
+    padding: 0 25px;
+}
 
 /*hero*/
 .w-100 {
