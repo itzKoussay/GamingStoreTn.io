@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins, sans-serif ;
+}
+
+/*Navbar*/
+.navbar-brand{
+    text-transform: uppercase;
+}
+
+.navbar{
+    box-shadow: 0 4px  8px black;
+    z-index: 1;
+}
+
+/*hero*/
+.w-100 {
+    width: 100% !important;
+    height: 92vh;
+    
+  }
+
+.carousel-caption>h1{
+    font-size: 350%;
+    text-align: center;
+
+    text-shadow: 2px 6px 8px black;
+    
+    
+}
+.carousel-captionp{
+    margin-bottom: 60px;
+}
+
+
+.carousel-caption>p{
+    font-size: 200%;
+    text-align: center;
+    text-shadow: 10px 10px 8px black;
+    
+}
+.carousel-caption{
+    top: 35%;
+}
+
+/*btn*/
+button.btn{
+    margin: 0 10px;
+    margin-top: 15px;
+    padding: 12px;
+}
+
+
+/*images*/
+.d-block,.w-10{
+    filter:brightness(0.6)
+}
+    
+/*Responsive*/
+
+@media (max-width: 992px){
+    .carousel-caption>h1{
+        font-size: 250%;
+        text-align: center;
+    
+        text-shadow: 2px 6px 8px black;
+        
+        
+    }
+
+    .carousel-caption>p{
+        font-size: 150%;
+        text-align: center;
+
+        
+    }
+}
+
+@media (max-width: 768px){
+    .carousel-caption>h1{
+        font-size: 200%;
+        text-align: center;
+    
+        text-shadow: 2px 6px 8px black;
+        
+        
+    }
+    .carousel-caption>p{
+        font-size: 125%;
+        text-align: center;
+        text-shadow: 10px 10px 8px black;
+        
+    }
+
+    button.btn{
+        padding:7px;
+        margin: 0 10px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 576px){
+    .carousel-caption>h1{
+        font-size: 150%;
+        text-align: center;
+    }
+    .carousel-caption>p{
+        font-size: 100%;
+        text-align: center;
+
+        
+    }
+
+    button.btn{
+        padding:5px;
+        margin: 0 10px;
+        margin-top: 15px;
+    }
+}
+
+/*welcome*/
+
+
+
+/*3 Columns*/
+i.fas{
+    display: flex;
+    justify-content: center;
+
+}
+.padding{
+    margin-bottom: 3rem;
+}
+
+p.lead{
+    font-weight: 500;
+}
+p.lead>span{
+    color: crimson;
+    text-decoration: underline;
+}
+.welcome>hr{
+    width: 75%;
+    margin: auto;
+    border-top: 2px solid black;
+    margin-bottom: 25px;
+}
+
+/*Icons*/
+/*sizes*/
+.fa-gamepad,
+.fa-shield-alt,
+.fa-users{
+    font-size: 5rem;
+    margin-bottom: 45px;
+}
+
+/*colors*/
+
+.fa-gamepad{
+    color: crimson;
+}
+.fa-shield-alt{
+    color:#361999 ;
+}
+.fa-users{
+    color: #FF6A3D;
+}
