@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css linking -->
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap day 3</title>
+    <!-- Bootstrap style linking -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/bc91fbe450.js" crossorigin="anonymous"></script>
+ </head>
+<body>
+   
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">GaminGlory</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-3 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link  active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#why">Why Us?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Slider -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="3rd.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+                <h1>Welcome To GaminGlory</h1>
+                <p>The Very First Tunisian Online Gaming Store!</p>
+                <button class="btn btn-danger btn-lg  ">Learn More</button>
+                <button class="btn btn-light btn-lg  ">Explore</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="pexels-fox-3829227.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+                <h1>Good Games For Cheap Price.</h1>
+                <p>All Kind Of Games Provided To You.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="pexels-fox-1038916.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+                <h1>Best User Experience!</h1>
+                <p>We Look Into Customer Satisfaction.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+   
+    <!-- Welcome Section ( Why Us?) -->
+      <div class="container-fluid padding">
+        <div class="row welcome text-center">
+          <div class="col-12">
+            <h1 style="margin-top: 50px;" class="padding" id="why">Why Us?</h1>
+          </div>
+          <hr>
+          <div class="col-12">
+            <p style="margin-bottom: 50px;" class="lead">
+              <span>GaminGlory</span> is here to solve a lot of the Tunisian Gamer's Problems! Payment,Safety,Etc..
+            </p>
+          </div>
+        </div>
+        
+      </div>
+      <!--3 Column section-->
+
+      <div class="container-fluid">
+        <div class="row padding">
+          <div class="col-sm-4  text-center padding">
+            <i class="fas fa-gamepad"></i>
+            <h5>All The Games You Want.</h5>
+            <p>Avaiable On Pc, PlayStation, XBox And Nintendo Switch</p>
+          </div>
+
+          <div class="col-sm-4 text-center padding">
+            <i class="fas fa-shield-alt"></i>
+            <h5>We Care About Your Safety.</h5>
+            <p>We Keep Our Client's Data Safe And Decrypted. </p>
+          </div>
+
+          <div class="col-sm-4 text-center padding">
+            <i class="fas fa-users"></i>
+            <h5>It's User-Friendly.</h5>
+            <p>It's Never Been Easier For Clients To Buy!</p>
+          </div>
+        </div>
+        <hr class="my-4">
+      </div>
+      <!-- <div class="container-fluid padding">
+        <div class="row text-center padding">
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <i class="fas fa-gamepad"></i>
+            <h5>All The Games You Want.</h5>
+            <p>Avaiable On Pc, PlayStation, XBox And Nintendo Switch</p>
+          </div>
+        </div>
+
+        <div class="row text-center padding">
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <i class="fas fa-shield-alt"></i>
+            <h5>We Care About Your Safety.</h5>
+            <p>We Keep Our Client's Data Safe And Decrypted. </p>
+          </div>
+        </div>
+
+
+        <div class="row text-center padding">
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <i class="fas fa-users"></i>
+            <h5>It's User-Friendly.</h5>
+            <p>It's Never Been Easier For Clients To Buy!</p>
+          </div>
+        </div>
+        <hr class="my-4">
+      </div> -->
+
+
+    <!-- About Me -->
+
+
+
+    <!-- Footer -->
+
+
+
+    <!-- Bootstrap script liniking -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+</html>
