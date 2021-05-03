@@ -78,6 +78,7 @@ button.btn{
 
         
     }
+   
 }
 
 @media (max-width: 768px){
@@ -127,6 +128,9 @@ button.btn{
 
 
 /*3 Columns*/
+
+
+
 i.fas{
     display: flex;
     justify-content: center;
@@ -138,6 +142,8 @@ i.fas{
 
 p.lead{
     font-weight: 500;
+    font-size: 20%;
+
 }
 p.lead>span{
     color: crimson;
@@ -154,7 +160,11 @@ p.lead>span{
 /*sizes*/
 .fa-gamepad,
 .fa-shield-alt,
-.fa-users{
+.fa-users,
+.fa-code,
+.fa-film,
+.fa-layer-group
+{
     font-size: 5rem;
     margin-bottom: 45px;
 }
@@ -169,4 +179,46 @@ p.lead>span{
 }
 .fa-users{
     color: #FF6A3D;
+}
+.fa-code{
+    color: crimson;
+}
+.fa-film{
+    color:#361999
+}
+.fa-layer-group{
+    color: #FF6A3D;
+
+}
+/*about me*/
+
+p.lead{
+    text-align: center;
+    font-size: 250%;
+}
+span.animation-changing-text{
+    color:crimson;
+}
+span.animation-changing-text:before{
+    content: '';
+    animation: animate infinite 8s;
+
+}
+@keyframes animate{
+    0%{
+        content: 'Web Dev.';
+    }
+    25%{
+        content: 'Freelancer.';
+    }
+    50%{
+        content: 'Video Editor.';
+    }
+    75%{
+        content: 'Web Designer.';
+    }
+    100%{
+        content: 'Signature Artist.';
+
+    }
 }
