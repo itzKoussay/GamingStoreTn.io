@@ -63,6 +63,17 @@ button.btn{
 /*Responsive*/
 
 @media (max-width: 992px){
+
+
+
+    .w-100 {
+        width: 100% !important;
+        height: 82vh;
+        
+      }
+
+
+
     .carousel-caption>h1{
         font-size: 250%;
         text-align: center;
@@ -72,16 +83,30 @@ button.btn{
         
     }
 
+
     .carousel-caption>p{
         font-size: 150%;
         text-align: center;
 
         
     }
+    /*contact*/
+    input, textarea{
+        width: 350px;
+        border: #833AB4 2px solid;
+    }
    
 }
 
 @media (max-width: 768px){
+    .w-100 {
+        width: 100% !important;
+        height: 60vh;
+        
+      }
+
+
+
     .carousel-caption>h1{
         font-size: 200%;
         text-align: center;
@@ -102,9 +127,21 @@ button.btn{
         margin: 0 10px;
         margin-top: 15px;
     }
+
+    /*contact*/
+    input, textarea{
+        width: 300px;
+        border: #833AB4 2px solid;
+    }
 }
 
 @media (max-width: 576px){
+    .w-100 {
+        width: 100% !important;
+        height: 50vh;
+        
+      }
+
     .carousel-caption>h1{
         font-size: 150%;
         text-align: center;
@@ -120,6 +157,13 @@ button.btn{
         padding:5px;
         margin: 0 10px;
         margin-top: 15px;
+    }
+
+
+    /*contact*/
+    input, textarea{
+        width: 100px;
+        border: #833AB4 2px solid;
     }
 }
 
@@ -142,7 +186,7 @@ i.fas{
 
 p.lead{
     font-weight: 500;
-    font-size: 20%;
+    
 
 }
 p.lead>span{
@@ -194,7 +238,7 @@ p.lead>span{
 
 p.lead{
     text-align: center;
-    font-size: 250%;
+    font-size: 200%;
 }
 span.animation-changing-text{
     color:crimson;
@@ -218,7 +262,72 @@ span.animation-changing-text:before{
         content: 'Web Designer.';
     }
     100%{
-        content: 'Signature Artist.';
+        content: 'Web Dev.';
 
     }
+}
+
+  
+/*social media icons*/
+
+i.fa-facebook,
+i.fa-instagram,
+i.fa-github
+{
+    font-size: 50px;
+    padding: 20px 25px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+/*social media icons' colors*/
+i.fa-facebook{
+    color:#3b5998;
+}
+
+i.fa-instagram{
+    color: #833AB4;
+}
+
+i.fa-github{
+    color:#211F1F ;
+}
+
+/*games*/
+.card{
+ margin: 40px;
+ margin-bottom: 75px;
+}
+img.card-img-top:hover{
+
+    filter: brightness(0.5);
+    transition: 0.1s;
+}
+a.text-center{
+    text-decoration: none;
+    font-weight: 500;
+    color: crimson;
+}
+
+/*footer*/
+.footer{
+    margin-top: 35px;
+    padding: 100px;
+}
+.footer>h1{
+    margin: 0px;
+}
+
+/*footer icons*/
+.fa-map-marker-alt{
+
+    font-size:50px;
+    margin-bottom: 25px;
+}
+.fa-phone-square-alt{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.location{
+    padding-bottom: 18px;
 }
